@@ -1,9 +1,0 @@
-EXP 5
-CREATE TABLE CUSTOMER(
-cust_id serial PRIMARY KEY,
-cust_name VARCHAR(50),dob VARCHAR(50),city VARCHAR(50),street VARCHAR(50),state VARCHAR(50),pincode VARCHAR(10),ph_no VARCHAR(50),deal_no VARCHAR(50),photo_identity VARCHAR(50),veh_id integer
-);
-
-SELECT *FROM CUSTOMER;
-INSERT INTO CUSTOMER(cust_id,cust_name,dob,city,street,state,pincode,ph_no,deal_no,photo_identity,veh_id)VALUES(41,'RAJU',13-09-1996,'Guntur','Ramgopal street','andrapradesh',500213,9123456789,10,'y',3);
-INSERT INTO CUSTOMER(cust_id,cust_name,dob,city,street,state,pincode,ph_no,deal_no,photo_identity,veh_id)VALUES(42,'hari',19-06-2016,'perambur','mylapur','tamilnadu',500211,1122334455,20,'n',2),(43,'giri',20-01-1995,'hyderabad','sr nagar','telengana',500079,8877665544,30,'y',4),(44,'ramu',17-07-1996,'vijayawada','benz circle','andhrapradesh',51234,7654564321,40,'y',5);
